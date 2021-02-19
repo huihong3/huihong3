@@ -1,0 +1,127 @@
+/* 加载条 */
+.pace .pace-progress {
+        background: #1E92FB; 
+        height: 3px;
+    }
+.pace .pace-progress-inner {
+        box-shadow: 0 0 10px #1E92FB, 0 0 5px     #1E92FB; /*阴影颜色*/
+    }
+.pace .pace-activity {
+        border-top-color: #1E92FB;    /*上边框颜色*/
+        border-left-color: #1E92FB;    /*左边框颜色*/
+    }
+/* 顶栏字体 */
+#page-header.not-top-img {
+        font-size: 18px;
+    }
+/* 页面瘦身 */
+.layout{
+        max-width: 1100px;
+    }
+
+/* valine美化*/
+.v[data-class=v] .vsys {
+    font-size: 1em;
+}
+.fab, .far {
+    margin-right: 5px;
+}
+.v[data-class=v] .vcards .vcard .vcontent {
+    background: #2C2C2C;
+    margin-top: 1em;
+    padding-top: .625em;
+    padding-left: 1em;
+    padding-bottom: .625em;
+    border-radius: 8px;
+}
+.v[data-class=v] .vcards .vcard .vh .vmeta .vat {
+    background: #2C2C2C;
+    padding: 0.1em 0.5em;
+    font-size: .8125em;
+    color: #fff;
+    cursor: pointer;
+    float: right;
+    border-radius: 8px;
+    border: 1px solid #000;
+}
+.v[data-class=v] .vcards .vcard .vh .vmeta .vat:hover {
+    color: #49B0F4;
+    border: 1px solid #49B0F4;
+}
+.v[data-class=v] .vwrap {
+    background: #2C2C2C;
+}
+
+
+.v[data-class=v] .vwrap .vheader .vinput {
+    border-bottom: 1px dashed #121212;
+}
+
+.v[data-class=v] .vwrap .vheader .vinput:focus {
+    border-bottom: 1px dashed #fff;
+}
+.v[data-class=v] .vcards .vcard .vquote {
+    padding-left: 0.5em;
+    border-left: 0;
+}
+.v[data-class=v] .vcards .vcard .vh {
+    overflow: hidden;
+    padding-bottom: 0;
+    border-bottom: 0;
+}
+
+/* 图标美化 */
+.fa-qq {
+    color: #10a4ff;
+}
+.fa-weixin {
+    color: #00bf03;
+}
+.fa-alipay {
+    color: #4890f7;
+}
+.fa-heart {
+    color: red;
+}
+.fa-envelope {
+    color: #d68650;
+}
+.fa-android {
+    color: #3DDB85;
+}
+.fa-edge {
+    color: #41DF93;
+}
+.fa-windows {
+    color: #0067B8;
+}
+.fa-chrome {
+    color: #FFD13D;
+}
+/* 模块美化 */
+[data-theme=dark] #page-header.nav-fixed>#nav, [data-theme=dark] #page-header.not-top-img>#nav {
+    box-shadow:0px 0px 10px #000;
+}
+.categoryBar-list {
+    box-shadow:0px 0px 10px #000;
+}
+#aside-content>.card-widget:first-child {
+    box-shadow:0px 0px 10px #000;
+}
+#recent-posts>.recent-post-item:not(:first-child) {
+    box-shadow:0px 0px 10px #000;
+}
+#aside-content .card-widget {
+    box-shadow:0px 0px 10px #000;
+}
+.layout>div:first-child:not(.recent-posts) {
+    box-shadow:0px 0px 10px #000;
+}
+/* footer美化 */
+[data-theme=dark] #footer-wrap {
+    background-color: #121212;
+}
+/* 分页按钮美化 */
+#pagination .page-number.current {
+    background: #2C2C2C;
+}
