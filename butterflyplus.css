@@ -13,57 +13,6 @@ BY 灰鸿YHY
         max-width: 1100px;
     }
 
-/* valine美化*/
-.v[data-class=v] .vsys {
-    font-size: 1em;
-}
-.fab, .far {
-    margin-right: 5px;
-}
-.v[data-class=v] .vcards .vcard .vcontent {
-    background: #2C2C2C;
-    margin-top: 1em;
-    padding-top: .625em;
-    padding-left: 1em;
-    padding-bottom: .625em;
-    border-radius: 8px;
-}
-.v[data-class=v] .vcards .vcard .vh .vmeta .vat {
-    background: #2C2C2C;
-    padding: 0.1em 0.5em;
-    font-size: .8125em;
-    color: #fff;
-    cursor: pointer;
-    float: right;
-    border-radius: 8px;
-    border: 1px solid #000;
-}
-.v[data-class=v] .vcards .vcard .vh .vmeta .vat:hover {
-    color: #49B0F4;
-    border: 1px solid #49B0F4;
-}
-.v[data-class=v] .vwrap {
-    background: #2C2C2C;
-}
-
-
-.v[data-class=v] .vwrap .vheader .vinput {
-    border-bottom: 1px dashed #121212;
-}
-
-.v[data-class=v] .vwrap .vheader .vinput:focus {
-    border-bottom: 1px dashed #fff;
-}
-.v[data-class=v] .vcards .vcard .vquote {
-    padding-left: 0.5em;
-    border-left: 0;
-}
-.v[data-class=v] .vcards .vcard .vh {
-    overflow: hidden;
-    padding-bottom: 0;
-    border-bottom: 0;
-}
-
 /* 图标美化 */
 .fa-qq {
     color: #10a4ff;
