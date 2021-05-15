@@ -226,3 +226,7 @@ BY 灰鸿YHY
 .bangumi-info-item {
     border-right: 1px solid #fff;
 }
+/* 文章页 */
+#post>#post-info .post-title {
+    border-bottom: 0px solid var(--light-grey);
+}
