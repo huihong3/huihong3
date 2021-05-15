@@ -141,7 +141,10 @@ BY 灰鸿YHY
   transition: 0.3s;
   box-shadow: var(--heo-shadow-blue);
 }
-
+/* 主题色 */
+#article-container a {
+    color: #000;
+}
 /* 追番 */
 .bangumi-info-item {
     border-right: 1px solid #fff;
