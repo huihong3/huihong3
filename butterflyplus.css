@@ -1,7 +1,7 @@
 /*
 hexo博客
 butterfly主题美化
-适配dark模式
+适配light模式
 BY 灰鸿YHY
 */
 /* 顶栏字体 */
@@ -41,33 +41,7 @@ BY 灰鸿YHY
 .fa-chrome {
     color: #FFD13D;
 }
-/* 模块美化 */
-[data-theme=dark] #page-header.nav-fixed>#nav, [data-theme=dark] #page-header.not-top-img>#nav {
-    box-shadow:0px 0px 10px #000;
-}
-.categoryBar-list {
-    box-shadow:0px 0px 10px #000;
-}
-#aside-content>.card-widget:first-child {
-    box-shadow:0px 0px 10px #000;
-}
-#recent-posts>.recent-post-item:not(:first-child) {
-    box-shadow:0px 0px 10px #000;
-}
-#aside-content .card-widget {
-    box-shadow:0px 0px 10px #000;
-}
-.layout>div:first-child:not(.recent-posts) {
-    box-shadow:0px 0px 10px #000;
-}
-/* footer美化 */
-[data-theme=dark] #footer-wrap {
-    background-color: #121212;
-}
-/* 分页按钮美化 */
-#pagination .page-number.current {
-    background: #2C2C2C;
-}
+
 /* bb哔哔 */
 /* bb样式 */
 
@@ -167,10 +141,7 @@ BY 灰鸿YHY
   transition: 0.3s;
   box-shadow: var(--heo-shadow-blue);
 }
-/* 主题色 */
-#article-container a {
-    color: #fff;
-}
+
 /* 追番 */
 .bangumi-info-item {
     border-right: 1px solid #fff;
