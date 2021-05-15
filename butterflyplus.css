@@ -153,3 +153,32 @@ BY 灰鸿YHY
 #post>#post-info .post-title {
     border-bottom: 0px solid var(--light-grey);
 }
+/* footer优化 */
+#footer-wrap {
+    background: #fff;
+    color: #4c4948;
+    box-shadow: var(--card-box-shadow);
+}
+#footer-wrap a {
+    color: grey;
+}
+/* 换页器优化 */
+#pagination .page-number.current {
+    background: rgb(19,47,229); 
+}
+#pagination .page-number {
+    width: 2rem;
+    height: 2rem;
+    line-height: calc(2rem - 2px);
+    border-radius: 8px!important;
+    margin: 0 .3rem;
+    border-width: 1px;
+    border-style: solid;    
+}
+/* valine美化 */
+.v[data-class=v] .vsys {
+    font-size: 1em;
+}
+.fab, .far {
+    margin-right: 5px;
+}
