@@ -35,6 +35,7 @@ BY 灰鸿YHY
 /* bb样式 */
 
 .timeline ul li{
+  list-style-type: none;
   position: relative;
   padding-left: 2.5rem;
 }
