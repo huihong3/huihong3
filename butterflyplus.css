@@ -4,43 +4,55 @@ butterfly主题美化
 适配light模式
 BY 灰鸿YHY
 */
-/* 顶栏字体 */
-#page-header.not-top-img {
-        font-size: 18px;
-    }
+
 /* 页面瘦身 */
 .layout{
         max-width: 1100px;
     }
 
 /* 图标美化 */
+@font-face {
+  font-family: "iconfont"; /* Project id 2744831 */
+  src: url('//at.alicdn.com/t/font_2744831_x36bf710ax.woff2?t=1628924504739') format('woff2'),
+       url('//at.alicdn.com/t/font_2744831_x36bf710ax.woff?t=1628924504739') format('woff'),
+       url('//at.alicdn.com/t/font_2744831_x36bf710ax.ttf?t=1628924504739') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-Chrome:before {
+  content: "\ea09";
+}
+
+.fa-edge:before {
+  content: "\e612";
+}
+
 .fa-qq {
     color: #10a4ff;
 }
 .fa-weixin {
     color: #00bf03;
 }
-.fa-alipay {
-    color: #4890f7;
-}
+
 .fa-heart {
     color: red;
 }
-.fa-envelope {
-    color: #d68650;
-}
+
 .fa-android {
     color: #3DDB85;
 }
-.fa-edge {
-    color: #41DF93;
-}
+
 .fa-windows {
-    color: #0067B8;
+    color: #00AEF0;
 }
-.fa-chrome {
-    color: #FFD13D;
-}
+
 
 /* bb哔哔 */
 /* bb样式 */
@@ -142,13 +154,15 @@ BY 灰鸿YHY
   box-shadow: var(--heo-shadow-blue);
 }
 /* 主题色 */
-#article-container a {
-    color: #000;
+#nav .menus_items .menus_item .menus_item_child li a:hover {
+    color: #fff;
 }
 /* 追番 */
+/*
 .bangumi-info-item {
     border-right: 1px solid #fff;
 }
+*/
 /* 文章页 */
 #post>#post-info .post-title {
     border-bottom: 0px solid var(--light-grey);
