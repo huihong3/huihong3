@@ -11,29 +11,6 @@ BY 灰鸿YHY
     }
 
 /* 图标美化 */
-@font-face {
-  font-family: "iconfont"; /* Project id 2744831 */
-  src: url('//at.alicdn.com/t/font_2744831_x36bf710ax.woff2?t=1628924504739') format('woff2'),
-       url('//at.alicdn.com/t/font_2744831_x36bf710ax.woff?t=1628924504739') format('woff'),
-       url('//at.alicdn.com/t/font_2744831_x36bf710ax.ttf?t=1628924504739') format('truetype');
-}
-
-.iconfont {
-  font-family: "iconfont" !important;
-  font-size: 16px;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.fa-Chrome:before {
-  content: "\ea09";
-}
-
-.fa-edge:before {
-  content: "\e612";
-}
-
 .fa-qq {
     color: #10a4ff;
 }
@@ -155,7 +132,13 @@ BY 灰鸿YHY
 }
 /* 主题色 */
 #nav .menus_items .menus_item .menus_item_child li a:hover {
-    color: #fff;
+    color: #fff !important;
+}
+#aside-content .card-archives ul.card-archive-list>.card-archive-list-item a, #aside-content .card-categories ul.card-category-list>.card-category-list-item a:hover{
+    color: #fff !important;
+    }
+#article-container .flink .flink-list>.flink-list-item a:hover{
+    color: #fff !important;
 }
 /* 追番 */
 /*
