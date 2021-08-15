@@ -135,7 +135,7 @@ BY 灰鸿YHY
 #nav .menus_items .menus_item .menus_item_child li a:hover {
     color: #fff !important;
 }
-#aside-content .card-archives ul.card-archive-list>.card-archive-list-item a, #aside-content .card-categories ul.card-category-list>.card-category-list-item a:hover{
+#aside-content .card-categories ul.card-category-list>.card-category-list-item a:hover{
     color: #fff !important;
     }
 #article-container .flink .flink-list>.flink-list-item a:hover{
@@ -177,6 +177,31 @@ BY 灰鸿YHY
 .v[data-class=v] .vsys {
     font-size: 1em;
 }
-.fab, .far {
+.fab {
     margin-right: 5px;
+}
+/* 搜索 */
+#local-search .search-dialog {
+    border-radius: 12px;
+}
+/*菜单栏*/
+#nav .menus_items .menus_item .menus_item_child {
+    border-radius: 12px;
+}
+#nav .menus_items .menus_item .menus_item_child li:hover {
+    border-radius: 12px;
+}
+#aside-content .card-categories ul.card-category-list>.card-category-list-item a:hover {
+    border-radius: 12px;
+}
+/*近期评论*/
+#aside-content .aside-list>.aside-list-item:not(:last-child) {
+    border-bottom: 0px;
+}
+#aside-content .aside-list>.aside-list-item {
+    padding:5px 5px 5px 5px;
+}
+#aside-content .aside-list>.aside-list-item:hover {
+    background-color: #DBDEE3;
+    border-radius: 12px;
 }
