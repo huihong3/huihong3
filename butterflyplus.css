@@ -9,6 +9,9 @@ BY 灰鸿YHY
 .layout{
         max-width: 1100px;
     }
+.layout {
+    padding: 1rem;
+}
 
 /* 图标美化 */
 .fa-qq {
@@ -181,8 +184,17 @@ BY 灰鸿YHY
     margin-right: 5px;
 }
 /* 搜索 */
+hr {
+    display: none;
+}
 #local-search .search-dialog {
     border-radius: 12px;
+}
+#search-mask {
+    background: rgba(255, 255, 255, 0.6);
+}
+.search-dialog {
+    background: #FFF;
 }
 /*菜单栏*/
 #nav .menus_items .menus_item .menus_item_child {
@@ -205,3 +217,33 @@ BY 灰鸿YHY
     background-color: #DBDEE3;
     border-radius: 12px;
 }
+/*侧栏资料*/
+#aside-content .card-info .card-info-data {
+    display: none;
+}
+/*顶栏*/
+#page-header.not-top-img #nav {
+    background: 0;
+}
+/*文章*/
+#recent-posts>.recent-post-item {
+    height: 13em;
+}
+#recent-posts>.recent-post-item>.recent-post-info>.article-meta-wrap .article-meta__separator {
+    display: none;
+}
+#recent-posts>.recent-post-item>.recent-post-info>.content {
+    display: none;
+}
+.article-meta-wrap>span {
+    margin-right:20px;
+}
+
+
+
+
+
+
+
+
+
