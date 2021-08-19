@@ -135,21 +135,12 @@ BY 灰鸿YHY
   box-shadow: var(--heo-shadow-blue);
 }
 /* 主题色 */
-#nav .menus_items .menus_item .menus_item_child li a:hover {
-    color: #fff !important;
-}
 #aside-content .card-categories ul.card-category-list>.card-category-list-item a:hover{
     color: #fff !important;
     }
 #article-container .flink .flink-list>.flink-list-item a:hover{
     color: #fff !important;
 }
-/* 追番 */
-/*
-.bangumi-info-item {
-    border-right: 1px solid #fff;
-}
-*/
 /* 文章页 */
 #post>#post-info .post-title {
     border-bottom: 0px solid var(--light-grey);
@@ -197,12 +188,6 @@ hr {
     background: #FFF;
 }
 /*菜单栏*/
-#nav .menus_items .menus_item .menus_item_child {
-    border-radius: 12px;
-}
-#nav .menus_items .menus_item .menus_item_child li:hover {
-    border-radius: 12px;
-}
 #aside-content .card-categories ul.card-category-list>.card-category-list-item a:hover {
     border-radius: 12px;
 }
@@ -225,6 +210,11 @@ hr {
 #page-header.not-top-img #nav {
     background: 0;
 }
+@media screen and (max-width: 760px) {
+    #nav #blog_name {
+        flex: 1;
+    }
+}
 /*文章*/
 #recent-posts>.recent-post-item {
     height: 13em;
@@ -236,7 +226,7 @@ hr {
     display: none;
 }
 .article-meta-wrap>span {
-    margin-right:20px;
+    margin-right: 10px;
 }
 
 
