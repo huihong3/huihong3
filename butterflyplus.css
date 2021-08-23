@@ -63,7 +63,6 @@ BY 灰鸿YHY
   display: inline;
   float: right;
   line-height: 3.7rem;
-  color: var(--heo-secondtext);
 }
 
 /* 每条动态 */
@@ -71,10 +70,7 @@ BY 灰鸿YHY
   display: flex;
   flex-direction: initial;
   flex-wrap: wrap;
-  background: var(--heo-post-blockquote-bg);
-  box-shadow: var(--heo-shadow-lightblack);
   border-radius: 12px;
-  padding: 8px 16px;
   margin-top: 12px;
 }
 
@@ -89,30 +85,30 @@ BY 灰鸿YHY
 /* 时间 */
 #bber > section > ul > div > li > div .datatime{
   order: 1;
-  color: var(--heo-secondtext);
-  font-size: 0.6rem;
+  font-size: 0.7rem;
 }
 
 /* 内容 */
 #bber > section > ul > div > li > div .datacont{
-  order: 0;
-  font-size: 1rem;
-  font-weight: bold;
-  color: var(--heo-lighttext);
-  width: 100%;
-  line-height: 1.38;
-  margin: 8px 0;
+    background: #f7f9fe;
+    padding: 12px 16px;
+    border-radius: 12px;
+    order: 0;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 100%;
+    line-height: 1.38;
+    margin: 8px 0;
 }
 
 /* 设备 */
 #bber > section > ul > div > li > div .datafrom{
   order: 2;
-  color: var(--heo-secondtext);
-  font-size: 0.6rem!important;
+  font-size: 0.7rem!important;
   margin-left: 8px;
 }
 #bber > section > ul > div > li > div .datafrom small{
-  font-size: 100%;
+  font-size: 0.7rem;
 }
 
 /* 时间线 */
@@ -124,7 +120,6 @@ BY 灰鸿YHY
   width: 2rem;
   height: 2rem;
   border-radius: 8px;
-  background: var(--card-bg);
   content: "";
   background-image: url(https://q2.qlogo.cn/headimg_dl?dst_uin=2038905632@qq.com,2038905632,&spec=100);
   background-size: 2rem;
@@ -132,8 +127,6 @@ BY 灰鸿YHY
 
 /* 加载更多 */
 .load-btn.button-load{
-  background: var(--heo-card-btn-bg);
-  color: var(--heo-fontcolor);
   padding: 12px 12px;
   margin: 8px 0;
   width: 100%;
@@ -144,10 +137,7 @@ BY 灰鸿YHY
 }
 
 .load-btn.button-load:hover{
-  background: var(--heo-main);
-  color: var(--heo-white);
   transition: 0.3s;
-  box-shadow: var(--heo-shadow-blue);
 }
 /* 主题色 */
 #aside-content .card-categories ul.card-category-list>.card-category-list-item a:hover{
@@ -155,6 +145,26 @@ BY 灰鸿YHY
     }
 #article-container .flink .flink-list>.flink-list-item a:hover{
     color: #fff !important;
+}
+/* 友链 */
+#article-container .flink .flink-list>.flink-list-item {
+    background: #edf0f7;
+}
+/*归档*/
+.article-sort {
+    border-left: 0;
+}
+.article-sort-item:before {
+    display: none;
+}
+.article-sort-title:hover:before {
+   display: none;
+}
+.article-sort-title:before {
+    display: none;
+}
+.article-sort-title:after {
+    display: none;
 }
 /* 文章页 */
 #post>#post-info .post-title {
@@ -351,9 +361,22 @@ hr {
 .card-categories>.item-headline {
     display: none;
 }
-
-
-
+/*友链宣传*/
+#friend-link-cd>.item-headline {
+    display: none;
+}
+#aside-content .card-widget#friend-link-cd {
+    cursor: pointer;
+    height: 110px;
+    background: #132fe5;
+    padding: 0 0 0 0;
+    border: none;
+}
+@media screen and (max-width: 800px) {
+#aside-content .card-widget#friend-link-cd {
+    display: none;
+}
+}
 
 
 
