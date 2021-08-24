@@ -85,7 +85,7 @@ BY 灰鸿YHY
 /* 时间 */
 #bber > section > ul > div > li > div .datatime{
   order: 1;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
 }
 
 /* 内容 */
@@ -104,11 +104,11 @@ BY 灰鸿YHY
 /* 设备 */
 #bber > section > ul > div > li > div .datafrom{
   order: 2;
-  font-size: 0.7rem!important;
+  font-size: 0.6rem!important;
   margin-left: 8px;
 }
 #bber > section > ul > div > li > div .datafrom small{
-  font-size: 0.7rem;
+  font-size: 100%;
 }
 
 /* 时间线 */
@@ -377,6 +377,21 @@ hr {
     display: none;
 }
 }
-
-
-
+/*标签页*/
+.tag-cloud-title {
+    display: none;
+}
+#page .tag-cloud-list a {
+    color: #363636 !important;
+    font-size: 1.4em !important;
+    padding: .2em .5em;
+    background: #edf0f7;
+    margin: .5em .5em;
+    border-radius: 12px;
+   
+}
+#page .tag-cloud-list a:hover {
+    background: #425AEF !important;
+    box-shadow: 0 8px 12px -3px rgba(40, 109, 234,.20);
+    color: #fff !important;
+}
