@@ -395,3 +395,29 @@ hr {
     box-shadow: 0 8px 12px -3px rgba(40, 109, 234,.20);
     color: #fff !important;
 }
+/*分类栏*/
+#category-bar {
+    border-radius: 12px;
+}
+.category-bar-item.select a {
+    background: #132FE5;
+}
+.category-bar-item a {
+    color: #363636;
+}
+.category-bar-item:hover a {
+    background: #132FE5;
+}
+.category-bar-more {
+    color: #363636;
+}
+@media screen and (min-width: 768px) {
+#category-bar {
+    position: relative;
+}
+.category-bar-more {
+    position: absolute;
+    right: 0;
+    margin-right: 1rem;
+}
+}
