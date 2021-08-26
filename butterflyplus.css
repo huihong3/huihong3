@@ -178,6 +178,61 @@ BY 灰鸿YHY
     box-shadow: 0 5px 12px -5px rgba(102, 68, 68, 0.00);
     border: 1px solid #e3e8f7;
 }
+#article-container p {
+    font-size: 18px;
+    line-height: 2.14;
+    font-weight: 400;
+}
+#article-container p {
+    margin: 1rem 0;
+}
+#article-container.post-content h1 {
+    font-size: 1.5rem;
+}
+#article-container.post-content h2 {
+    font-size: 1.3rem;
+}
+#article-container.post-content h3 {
+    font-size: 1.1rem;
+}
+#article-container.post-content h4 {
+    font-size: 1rem;
+}
+#article-container figure.highlight {
+    border-radius: 12px;
+}
+#article-container img {
+    border-radius: 12px;
+}
+#article-container code {
+    font-size: 18px;
+}
+blockquote {
+    border-radius: 12px;
+}
+#post .tag_share .post-meta__tags {
+    background: #edf0f7;
+    border: 0 solid #425AEF;
+    color: #363636;
+}
+#post .tag_share .post-meta__tag-list {
+    margin-top: 4px;
+}
+#post .tag_share .post-meta__tags:before {
+    content: "# ";
+}
+#post .tag_share .post_share .social-share .social-share-icon {
+    border-radius: 12px;
+    border: 0;
+    margin: 4px 4px;
+    width: 2.5em;
+    height: 2em;
+    font-size: 1.3em;
+    line-height: 2em; 
+}
+.social-share .social-share-icon {
+    background: #edf0f7;
+}
 /* footer优化 */
 #footer:before {   
     background-color: #F7F9FE;
@@ -401,14 +456,17 @@ hr {
 }
 .category-bar-item.select a {
     background: #132FE5;
+    font-size: 16px;
 }
 .category-bar-item a {
     color: #363636;
+    font-size: 16px;
 }
 .category-bar-item:hover a {
     background: #132FE5;
 }
 .category-bar-more {
+    font-size: 16px;
     color: #363636;
 }
 @media screen and (min-width: 768px) {
