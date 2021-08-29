@@ -1,6 +1,6 @@
-<img src="https://gitee.com/huihongyhy/imgbed/raw/master/img/undraw_feeling_proud_qne1.png"  height="400px" align="center"/>
+<img src="https://gitee.com/huihongyhy/imgbed/raw/master/img/undraw_feeling_proud_qne1.png"  height="auto" width="100%"/>
 
-<h1 align="center">Hi<img src="https://gitee.com/huihongyhy/imgbed/raw/master/img/wave.gif" width="40px" style="max-width:100%;">,I'm HuiHong</h1>
+<h1 align="center">Hi<img src="https://gitee.com/huihongyhy/imgbed/raw/master/img/wave.gif" width="30px" style="max-width:100%;">,I'm HuiHong</h1>
 
 <p align="center"><b>A technology enthusiast</b></p>
 
@@ -36,7 +36,7 @@
 
 
 
-<img src="https://avatars.githubusercontent.com/u/47073815?v=4" height="150px" style="border-radius: 50%; border: 1px solid rgb(255, 255, 255);"  align="center"/>
+<img src="https://gitee.com/huihongyhy/imgbed/raw/master/img/githubbanner.png" height="auto" style="border-radius: 50%; border: 1px solid rgb(255, 255, 255);" width="100%"/>
 
 <h1 align="center">灰鸿YHY</h1>
 
