@@ -36,8 +36,6 @@
 
 
 
-<img src="https://gitee.com/huihongyhy/imgbed/raw/master/img/githubbanner.png" height="auto" style="border-radius: 50%; border: 1px solid rgb(255, 255, 255);" width="100%"/>
-
 <h1 align="center">灰鸿YHY</h1>
 
 <p align="center"><b>一名科技爱好者</b></p>
